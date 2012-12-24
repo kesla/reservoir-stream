@@ -10,10 +10,10 @@ npm install reservoir-stream
 
 ## demo/usage
 ```javascript
-	// use a reservoir size of 3
-	var stream = require('reservoir-stream')(3)
+// use a reservoir size of 3
+var stream = require('reservoir-stream')(3)
 
-	var inputStream.pipe(stream).pipe(outputStream)
-	// 3 random elements from the inputStream will be piped to the outputStream
+var inputStream.pipe(stream).pipe(outputStream)
+// 3 random elements from the inputStream will be piped to the outputStream
 
 ```
