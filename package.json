@@ -1,0 +1,30 @@
+{
+  "author": "David Björklund <david.bjorklund@gmail.com>",
+  "dependencies": {
+    "reservoir": "~0.1.1",
+    "through": "~2.1.0"
+  },
+  "description": "A streaming interface to reservoir sampling",
+  "devDependencies": {
+    "tap": "~0.3.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "reservoir",
+    "sampling"
+  ],
+  "license": "MIT",
+  "main": "reservoir-stream.js",
+  "name": "reservoir-stream",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kesla/reservoir-stream.git"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "version": "0.0.0"
+}
